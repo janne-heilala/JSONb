@@ -1,0 +1,36 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-buttontext",
+      "displayName": "ButtonText",
+      "type": "String",
+      "defaultValue": "Logout",
+      "bindable": true
+    },
+    {
+      "name": "data-tchmi-passiveicon",
+      "displayName": "PassiveIcon",
+      "type": "Path",
+      "bindable": true
+    },
+    {
+      "name": "data-tchmi-pressedicon",
+      "displayName": "PressedIcon",
+      "type": "Path",
+      "bindable": true
+    },
+    {
+      "name": "data-tchmi-targetregion",
+      "displayName": "TargetRegion",
+      "type": "contentRegion",
+      "bindable": true
+    },
+    {
+      "name": "data-tchmi-targetcontent",
+      "displayName": "TargetContent",
+      "type": "ContentPath",
+      "bindable": true
+    }
+  ],
+  "$schema": "C:/TwinCAT/Functions/TE2000-HMI-Engineering/Infrastructure/TcHmiFramework/Latest/Schema/UserControlConfig.Schema.json"
+}
